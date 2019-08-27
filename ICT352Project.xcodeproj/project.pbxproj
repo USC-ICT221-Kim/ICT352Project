@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3177CD2230116DD0091093B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3177CD1230116DD0091093B /* MapViewController.swift */; };
 		E384B97222F2C1F20033FD6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B97122F2C1F20033FD6F /* AppDelegate.swift */; };
 		E384B97422F2C1F20033FD6F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B97322F2C1F20033FD6F /* RootViewController.swift */; };
 		E384B97622F2C1F20033FD6F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B97522F2C1F20033FD6F /* DataViewController.swift */; };
 		E384B97822F2C1F20033FD6F /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B97722F2C1F20033FD6F /* ModelController.swift */; };
 		E384B97B22F2C1F20033FD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E384B97922F2C1F20033FD6F /* Main.storyboard */; };
-		E384B97D22F2C1F30033FD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E384B97C22F2C1F30033FD6F /* Assets.xcassets */; };
 		E384B98022F2C1F30033FD6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E384B97E22F2C1F30033FD6F /* LaunchScreen.storyboard */; };
 		E384B98B22F2C1F30033FD6F /* ICT352ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B98A22F2C1F30033FD6F /* ICT352ProjectTests.swift */; };
 		E384B99622F2C1F30033FD6F /* ICT352ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B99522F2C1F30033FD6F /* ICT352ProjectUITests.swift */; };
+		E3897A4B2310377B00478420 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3897A4A2310377B00478420 /* Images.xcassets */; };
+		E3BB0618230C0F2900C8020B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BB0617230C0F2900C8020B /* WebViewController.swift */; };
+		E3CC2BEF230EE29C00D58711 /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC2BEE230EE29C00D58711 /* MainMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3177CD1230116DD0091093B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E384B96E22F2C1F20033FD6F /* ICT352Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICT352Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E384B97122F2C1F20033FD6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E384B97322F2C1F20033FD6F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		E384B97522F2C1F20033FD6F /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		E384B97722F2C1F20033FD6F /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		E384B97A22F2C1F20033FD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E384B97C22F2C1F30033FD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E384B97F22F2C1F30033FD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E384B98122F2C1F30033FD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E384B98622F2C1F30033FD6F /* ICT352ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICT352ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,9 @@
 		E384B99122F2C1F30033FD6F /* ICT352ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICT352ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E384B99522F2C1F30033FD6F /* ICT352ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICT352ProjectUITests.swift; sourceTree = "<group>"; };
 		E384B99722F2C1F30033FD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3897A4A2310377B00478420 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../Assets.xcassets/Images.xcassets; sourceTree = "<group>"; };
+		E3BB0617230C0F2900C8020B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E3CC2BEE230EE29C00D58711 /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +111,13 @@
 				E384B97322F2C1F20033FD6F /* RootViewController.swift */,
 				E384B97522F2C1F20033FD6F /* DataViewController.swift */,
 				E384B97722F2C1F20033FD6F /* ModelController.swift */,
-				E384B97922F2C1F20033FD6F /* Main.storyboard */,
-				E384B97C22F2C1F30033FD6F /* Assets.xcassets */,
 				E384B97E22F2C1F30033FD6F /* LaunchScreen.storyboard */,
+				E384B97922F2C1F20033FD6F /* Main.storyboard */,
 				E384B98122F2C1F30033FD6F /* Info.plist */,
+				E3177CD1230116DD0091093B /* MapViewController.swift */,
+				E3897A4A2310377B00478420 /* Images.xcassets */,
+				E3BB0617230C0F2900C8020B /* WebViewController.swift */,
+				E3CC2BEE230EE29C00D58711 /* MainMenuController.swift */,
 			);
 			path = ICT352Project;
 			sourceTree = "<group>";
@@ -235,8 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3897A4B2310377B00478420 /* Images.xcassets in Resources */,
 				E384B98022F2C1F30033FD6F /* LaunchScreen.storyboard in Resources */,
-				E384B97D22F2C1F30033FD6F /* Assets.xcassets in Resources */,
 				E384B97B22F2C1F20033FD6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E384B97422F2C1F20033FD6F /* RootViewController.swift in Sources */,
+				E3BB0618230C0F2900C8020B /* WebViewController.swift in Sources */,
 				E384B97822F2C1F20033FD6F /* ModelController.swift in Sources */,
 				E384B97622F2C1F20033FD6F /* DataViewController.swift in Sources */,
+				E3177CD2230116DD0091093B /* MapViewController.swift in Sources */,
+				E3CC2BEF230EE29C00D58711 /* MainMenuController.swift in Sources */,
 				E384B97222F2C1F20033FD6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +367,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YH9LZ6D2HG;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -416,6 +429,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YH9LZ6D2HG;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -449,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.ios.MyApp.ICT352Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,7 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.ios.MyApp.ICT352Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
